@@ -1,0 +1,49 @@
+/*gradient example */
+
+body {
+    
+background: linear-gradient(#F7F7F9, #EFF0F2);
+background-repeat: no-repeat;
+}
+
+/*Drop shadow example */
+/* drop-shadow(offset-x offset-y blur-radius color) */
+.card {
+    filter:drop-shadow(.5rem .5rem 1rem #e23);
+}
+
+/*button CSS*/
+
+.custom-btn {
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+     
+  }
+  
+  /* 1 */
+  .btn-1 {
+    background: rgba(12,25,180,1);
+    border: none;
+  }
+  .btn-1:hover {
+     background: rgb(0,3,255);
+    
+  }
+
+  /*Adding Font-awesome*/
+  .custom-btn:before {
+    content: "\f09a";  /* this is your text. You can also use UTF-8 character codes as I do here */
+    font-family: FontAwesome;
+    left:15px;
+    position:absolute;
+    top:10px;
+ }
